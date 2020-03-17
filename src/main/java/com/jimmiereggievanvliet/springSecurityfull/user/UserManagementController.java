@@ -1,6 +1,6 @@
 package com.jimmiereggievanvliet.springSecurityfull.user;
 
-import ch.qos.logback.core.net.SyslogOutputStream;
+
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
