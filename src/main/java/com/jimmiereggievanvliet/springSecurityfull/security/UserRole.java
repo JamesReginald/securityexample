@@ -10,8 +10,8 @@ import static com.jimmiereggievanvliet.springSecurityfull.security.UserPermissio
 
 public enum UserRole {
     USER(Sets.newHashSet()),
-    ADMIN( Sets.newHashSet(COURSE_READ, COURSE_WRITE, USER_READ, USER_WRITE)),
-    ADMINTRAINEE( Sets.newHashSet(COURSE_READ, USER_READ));
+    ADMIN( Sets.newHashSet(MAIN_READ, MAIN_WRITE, USER_READ, USER_WRITE)),
+    ADMINTRAINEE( Sets.newHashSet(MAIN_READ, USER_READ));
 
     private final Set<UserPermissions> permissions;
 
